@@ -1,0 +1,15 @@
+﻿{
+  "name": "@xiaohou2503687-design/seomatic",
+  "version": "0.1.0",
+  "description": "AI content cluster generator — one keyword → 20+ SEO-optimized articles",
+  "main": "src/index.js",
+  "bin": { "seomatic": "./bin/seomatic.js" },
+  "keywords": ["seo", "content", "ai", "cluster", "cli", "indie-dev"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "openai": "^4.0.0"
+  },
+  "engines": { "node": ">=18" }
+}
